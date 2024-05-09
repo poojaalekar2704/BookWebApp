@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <servlet>
+  <servlet-name>1</servlet-name>
+  <servlet-class>com.idiot.servlet.registerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>1</servlet-name>
+  <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>2</servlet-name>
+  <servlet-class>com.idiot.servlet. editservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>2</servlet-name>
+  <url-pattern>/editurl</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>3</servlet-name>
+  <servlet-class>com.idiot.servlet.editscreenservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>3</servlet-name>
+  <url-pattern>/deleteurl</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>4</servlet-name>
+  <servlet-class>com.idiot.servlet.deleteservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>4</servlet-name>
+  <url-pattern>/list.boollistservlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+ <welcome-file-list>
+    <welcome-file>home.html</welcome-file>
+  </welcome-file-list>
+  <display-name>BookWebApp</display-name>
+  
+</web-app>
